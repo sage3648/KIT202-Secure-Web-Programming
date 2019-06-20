@@ -1,0 +1,199 @@
+/*<!--
+Sage Stainsby
+390889
+KIT202 Secure Web Programming
+Assignment 2
+-->*/
+
+body {font-family: "Segoe UI", sans-serif}
+
+.splitDisplay{
+    overflow-clip: padding-box;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+.formT textarea {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+    font-family: "Avant Garde", sans-serif;
+    font-size: 150%;
+    height: 170px;
+    padding: 7px 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+.formT button{
+    border-radius: 2px;
+    margin-bottom: 1px;
+    align-self: center;
+    text-align: center;
+    position:relative;
+    left:43%;
+    padding: 11px 30px;
+    border:1px black;
+    color: white;
+    text-color: white;
+    font-size: 60%;
+    box-shadow: #2f2f2f;
+
+}
+.formT button:hover{
+    background-color: #38d600;
+    color: white;
+}
+.threeStep{
+    text-align: center;
+
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+}
+.navbar{
+    overflow: hidden;
+    background-color: #2f2f2f;
+    position: fixed;
+    top: 0;
+    width: 99%;
+
+
+}
+.missionInfo{
+    padding: 100px 100px;
+    size: 50px;
+    text-align: center;
+}
+
+.navbar a {
+    /* Previously used to hold all style for navbar components, not specific enough */
+}
+a.changeColour:hover,  a.changeColour:active{color: darkgrey;}
+a.changeColour1:hover,  a.changeColour1:active{color: darkgrey;}
+
+a.Brand {
+    text-shadow: slategray;
+    font-weight: 800;
+    font-family: "Avant Garde", sans-serif;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+a.changeColour1{
+    font-family: "Avant Garde", sans-serif;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+a.changeColour{
+    font-family: "Avant Garde", sans-serif;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+a.changeColour3{
+    font-family: "Avant Garde", sans-serif;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+}
+.pageHeader {
+    color: #262626;
+    letter-spacing: 1.5px;
+    text-align: center;
+    background-color: #e9e9eb;
+    padding-bottom: 30px;
+}
+.pageHeader h1 {
+    font-size: 370%;
+}
+.pageHeader p1 {
+    font-size: 100%;
+}
+.pageHeader p2 {
+    font-size: 100%;
+
+}
+
+.loginInputs input{
+
+    text-align: center;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+.loginInputs label{
+
+
+
+}
+.loginInputs {
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+}
+
+.loginInputs button{
+    padding: 15px 30px;
+    box-shadow: #2f2f2f;
+    border: 2px;
+}
+.purchaseInputs {
+    padding-top: 5px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.purchaseInputs button{
+    padding: 15px 30px;
+    box-shadow: #2f2f2f;
+    border: 2px;
+}
+.purchaseInputs input{
+
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+.purchase{
+
+    border: 3px;
+    padding: 60px 60px;
+}
+
